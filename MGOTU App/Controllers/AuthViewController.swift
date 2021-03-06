@@ -11,7 +11,6 @@ class AuthViewController: UIViewController {
     
     
     @IBOutlet weak var fieldsTableView: AuthTableView!
-
     @IBOutlet weak var loaderView: LoaderView!
     @IBOutlet weak var activityIndicator: NVActivityIndicatorView!
     

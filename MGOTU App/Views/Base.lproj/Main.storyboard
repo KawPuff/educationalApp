@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t4F-KT-xYY">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -150,6 +150,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" style="insetGrouped" sectionIndexMinimumDisplayRowCount="1" allowsSelection="NO" rowHeight="44" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="QHy-XZ-hUh" customClass="AuthTableView" customModule="MGOTU_App" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="298" width="414" height="300"/>
+                                <color key="backgroundColor" name="AuthColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="c1D-Q8-R7T"/>
                                 </constraints>
@@ -201,6 +202,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="zPG-t7-oEN" secondAttribute="trailing" constant="20" id="zGb-nZ-CIM"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" name="AuthFieldsColor"/>
                                         <connections>
                                             <outlet property="loginTF" destination="zPG-t7-oEN" id="U8h-w2-KiN"/>
                                         </connections>
@@ -239,6 +241,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="joh-y4-on1" secondAttribute="trailing" constant="20" id="yJl-xG-bHH"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" name="AuthFieldsColor"/>
                                         <connections>
                                             <outlet property="passwodDeatailsBotton" destination="4YJ-oQ-fhp" id="P0v-Dw-LGb"/>
                                             <outlet property="passwordTF" destination="AeS-hU-2hN" id="DrB-O9-mUe"/>
@@ -454,6 +457,12 @@
         <image name="noteSelected" width="25" height="25"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AuthColor">
+            <color red="0.94921737910000004" green="0.94869190449999996" blue="0.96863085029999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="AuthFieldsColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
