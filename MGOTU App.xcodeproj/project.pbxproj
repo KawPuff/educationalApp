@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF3B339A25F11B7000CA7C65 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3B339925F11B7000CA7C65 /* ButtonCell.swift */; };
+		EF3B339E25F124D000CA7C65 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3B339D25F124D000CA7C65 /* DescriptionCell.swift */; };
+		EF4A050325EB91CF001D0A8B /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A050225EB91CF001D0A8B /* LoginCell.swift */; };
+		EF4A050625EB923A001D0A8B /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A050525EB923A001D0A8B /* PasswordCell.swift */; };
+		EF79988E25F3971700DCEAB8 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79988D25F3971700DCEAB8 /* LoaderView.swift */; };
+		EF7DEE0B256C646200AC25C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7DEE0A256C646200AC25C9 /* AppDelegate.swift */; };
+		EF7DEE0D256C646200AC25C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7DEE0C256C646200AC25C9 /* SceneDelegate.swift */; };
+		EF7DEE12256C646200AC25C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7DEE10256C646200AC25C9 /* Main.storyboard */; };
+		EF7DEE14256C646700AC25C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7DEE13256C646700AC25C9 /* Assets.xcassets */; };
+		EF7DEE17256C646700AC25C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7DEE15256C646700AC25C9 /* LaunchScreen.storyboard */; };
+		EF949AD425E5721000D02756 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF949AD325E5721000D02756 /* OtherViewController.swift */; };
+		EFA158F425DC82D800D6F098 /* NetworkingManager🌐.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA158F325DC82D800D6F098 /* NetworkingManager🌐.swift */; };
+		EFAC8EAE25E05AF2007ED638 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC8EAD25E05AF2007ED638 /* FeedModel.swift */; };
+		EFC116B5257EE46100232B6C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC116B4257EE46100232B6C /* HomeViewController.swift */; };
+		EFCDB6DB2580EED100C885C7 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCDB6DA2580EED100C885C7 /* AuthViewController.swift */; };
+		EFCDB6DE2580FD2A00C885C7 /* authJsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCDB6DD2580FD2A00C885C7 /* authJsonData.swift */; };
+		EFD0768325D6953F004D25C4 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0768225D6953F004D25C4 /* NewsViewController.swift */; };
+		EFD0768B25D69ED7004D25C4 /* FeedItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0768925D69ED7004D25C4 /* FeedItemCell.swift */; };
+		EFD0768C25D69ED7004D25C4 /* FeedItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFD0768A25D69ED7004D25C4 /* FeedItemCell.xib */; };
+		F2053BDCA2FE8BFA0D337E11 /* libPods-MGOTU App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D6BBEE7EDB671AA5B8FDE2 /* libPods-MGOTU App.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81D6BBEE7EDB671AA5B8FDE2 /* libPods-MGOTU App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MGOTU App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5374B6DF4F873BB2038B38D /* Pods-MGOTU App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGOTU App.debug.xcconfig"; path = "Target Support Files/Pods-MGOTU App/Pods-MGOTU App.debug.xcconfig"; sourceTree = "<group>"; };
+		D1112BD2B91EB2C540763D1F /* Pods-MGOTU App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGOTU App.release.xcconfig"; path = "Target Support Files/Pods-MGOTU App/Pods-MGOTU App.release.xcconfig"; sourceTree = "<group>"; };
+		EF3B339925F11B7000CA7C65 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		EF3B339D25F124D000CA7C65 /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
+		EF4A050225EB91CF001D0A8B /* LoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
+		EF4A050525EB923A001D0A8B /* PasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCell.swift; sourceTree = "<group>"; };
+		EF79988D25F3971700DCEAB8 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		EF7DEE07256C646200AC25C9 /* MGOTU App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MGOTU App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7DEE0A256C646200AC25C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF7DEE0C256C646200AC25C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF7DEE11256C646200AC25C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF7DEE13256C646700AC25C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7DEE16256C646700AC25C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7DEE18256C646700AC25C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF949AD325E5721000D02756 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OtherViewController.swift; path = "MGOTU App/Controllers/OtherViewController.swift"; sourceTree = SOURCE_ROOT; };
+		EFA158F325DC82D800D6F098 /* NetworkingManager🌐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkingManager🌐.swift"; sourceTree = "<group>"; };
+		EFAC8EAD25E05AF2007ED638 /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		EFC116B4257EE46100232B6C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EFCDB6DA2580EED100C885C7 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		EFCDB6DD2580FD2A00C885C7 /* authJsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authJsonData.swift; sourceTree = "<group>"; };
+		EFD0768225D6953F004D25C4 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		EFD0768925D69ED7004D25C4 /* FeedItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemCell.swift; sourceTree = "<group>"; };
+		EFD0768A25D69ED7004D25C4 /* FeedItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedItemCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7DEE04256C646200AC25C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2053BDCA2FE8BFA0D337E11 /* libPods-MGOTU App.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5448B72F4D7BDFEC5430DBF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5374B6DF4F873BB2038B38D /* Pods-MGOTU App.debug.xcconfig */,
+				D1112BD2B91EB2C540763D1F /* Pods-MGOTU App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9BEE2FD84DD6F361BD040DA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81D6BBEE7EDB671AA5B8FDE2 /* libPods-MGOTU App.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF7DEDFE256C646200AC25C9 = {
+			isa = PBXGroup;
+			children = (
+				EF7DEE09256C646200AC25C9 /* MGOTU App */,
+				EF7DEE08256C646200AC25C9 /* Products */,
+				5448B72F4D7BDFEC5430DBF6 /* Pods */,
+				9BEE2FD84DD6F361BD040DA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7DEE08256C646200AC25C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DEE07256C646200AC25C9 /* MGOTU App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7DEE09256C646200AC25C9 /* MGOTU App */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DEE18256C646700AC25C9 /* Info.plist */,
+				EFBCBD7A25E3B0F800D2D34A /* Other */,
+				EFBCBD7925E3B0A000D2D34A /* Controllers */,
+				EFBCBD7825E3B08F00D2D34A /* Views */,
+				EFAC8EB025E05B10007ED638 /* Models */,
+			);
+			path = "MGOTU App";
+			sourceTree = "<group>";
+		};
+		EFAC8EB025E05B10007ED638 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFAC8EAD25E05AF2007ED638 /* FeedModel.swift */,
+				EFCDB6DD2580FD2A00C885C7 /* authJsonData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EFBCBD7825E3B08F00D2D34A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFD0768925D69ED7004D25C4 /* FeedItemCell.swift */,
+				EF7DEE10256C646200AC25C9 /* Main.storyboard */,
+				EF79988D25F3971700DCEAB8 /* LoaderView.swift */,
+				EF3B339D25F124D000CA7C65 /* DescriptionCell.swift */,
+				EF3B339925F11B7000CA7C65 /* ButtonCell.swift */,
+				EFD0768A25D69ED7004D25C4 /* FeedItemCell.xib */,
+				EF4A050225EB91CF001D0A8B /* LoginCell.swift */,
+				EF4A050525EB923A001D0A8B /* PasswordCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EFBCBD7925E3B0A000D2D34A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFD0768225D6953F004D25C4 /* NewsViewController.swift */,
+				EFCDB6DA2580EED100C885C7 /* AuthViewController.swift */,
+				EFC116B4257EE46100232B6C /* HomeViewController.swift */,
+				EF949AD325E5721000D02756 /* OtherViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EFBCBD7A25E3B0F800D2D34A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EF7DEE0A256C646200AC25C9 /* AppDelegate.swift */,
+				EF7DEE0C256C646200AC25C9 /* SceneDelegate.swift */,
+				EFA158F325DC82D800D6F098 /* NetworkingManager🌐.swift */,
+				EF7DEE13256C646700AC25C9 /* Assets.xcassets */,
+				EF7DEE15256C646700AC25C9 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7DEE06256C646200AC25C9 /* MGOTU App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7DEE1B256C646700AC25C9 /* Build configuration list for PBXNativeTarget "MGOTU App" */;
+			buildPhases = (
+				C352E2143A342B3846DA7053 /* [CP] Check Pods Manifest.lock */,
+				EF7DEE03256C646200AC25C9 /* Sources */,
+				EF7DEE04256C646200AC25C9 /* Frameworks */,
+				EF7DEE05256C646200AC25C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MGOTU App";
+			productName = "MGOTU App";
+			productReference = EF7DEE07256C646200AC25C9 /* MGOTU App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7DEDFF256C646200AC25C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EF7DEE06256C646200AC25C9 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = EF7DEE02256C646200AC25C9 /* Build configuration list for PBXProject "MGOTU App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7DEDFE256C646200AC25C9;
+			productRefGroup = EF7DEE08256C646200AC25C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7DEE06256C646200AC25C9 /* MGOTU App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7DEE05256C646200AC25C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD0768C25D69ED7004D25C4 /* FeedItemCell.xib in Resources */,
+				EF7DEE17256C646700AC25C9 /* LaunchScreen.storyboard in Resources */,
+				EF7DEE14256C646700AC25C9 /* Assets.xcassets in Resources */,
+				EF7DEE12256C646200AC25C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C352E2143A342B3846DA7053 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MGOTU App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7DEE03256C646200AC25C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA158F425DC82D800D6F098 /* NetworkingManager🌐.swift in Sources */,
+				EF949AD425E5721000D02756 /* OtherViewController.swift in Sources */,
+				EF79988E25F3971700DCEAB8 /* LoaderView.swift in Sources */,
+				EF7DEE0B256C646200AC25C9 /* AppDelegate.swift in Sources */,
+				EF7DEE0D256C646200AC25C9 /* SceneDelegate.swift in Sources */,
+				EFCDB6DB2580EED100C885C7 /* AuthViewController.swift in Sources */,
+				EFCDB6DE2580FD2A00C885C7 /* authJsonData.swift in Sources */,
+				EFD0768B25D69ED7004D25C4 /* FeedItemCell.swift in Sources */,
+				EFC116B5257EE46100232B6C /* HomeViewController.swift in Sources */,
+				EF3B339E25F124D000CA7C65 /* DescriptionCell.swift in Sources */,
+				EF4A050625EB923A001D0A8B /* PasswordCell.swift in Sources */,
+				EFD0768325D6953F004D25C4 /* NewsViewController.swift in Sources */,
+				EFAC8EAE25E05AF2007ED638 /* FeedModel.swift in Sources */,
+				EF4A050325EB91CF001D0A8B /* LoginCell.swift in Sources */,
+				EF3B339A25F11B7000CA7C65 /* ButtonCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF7DEE10256C646200AC25C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7DEE11256C646200AC25C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF7DEE15256C646700AC25C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7DEE16256C646700AC25C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7DEE19256C646700AC25C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF7DEE1A256C646700AC25C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7DEE1C256C646700AC25C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5374B6DF4F873BB2038B38D /* Pods-MGOTU App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGBRYLM9ZW;
+				INFOPLIST_FILE = "MGOTU App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dmitry-Martyanov.MGOTU-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EF7DEE1D256C646700AC25C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1112BD2B91EB2C540763D1F /* Pods-MGOTU App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGBRYLM9ZW;
+				INFOPLIST_FILE = "MGOTU App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dmitry-Martyanov.MGOTU-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7DEE02256C646200AC25C9 /* Build configuration list for PBXProject "MGOTU App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7DEE19256C646700AC25C9 /* Debug */,
+				EF7DEE1A256C646700AC25C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7DEE1B256C646700AC25C9 /* Build configuration list for PBXNativeTarget "MGOTU App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7DEE1C256C646700AC25C9 /* Debug */,
+				EF7DEE1D256C646700AC25C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7DEDFF256C646200AC25C9 /* Project object */;
+}

@@ -1,0 +1,6 @@
+module Pods_MGOTU_App {
+  umbrella header "Pods-MGOTU App-umbrella.h"
+
+  export *
+  module * { export * }
+}
