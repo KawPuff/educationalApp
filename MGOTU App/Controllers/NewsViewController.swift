@@ -9,7 +9,7 @@ import UIKit
 class NewsViewController: UIViewController {
     
  
-    
+    let networking = NetworkingManager🌐()
 
     @IBOutlet weak var newsCollectionView: UICollectionView!
     override func viewDidLoad() {

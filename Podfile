@@ -4,4 +4,5 @@
 target 'MGOTU App' do
   pod 'Alamofire', '~>5.2'
   pod 'NVActivityIndicatorView'
+  pod 'JTAppleCalendar', '~>7.1'
 end
