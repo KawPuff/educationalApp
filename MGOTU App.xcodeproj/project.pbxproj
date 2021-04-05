@@ -12,8 +12,6 @@
 		EF3B339E25F124D000CA7C65 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3B339D25F124D000CA7C65 /* DescriptionCell.swift */; };
 		EF4A050325EB91CF001D0A8B /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A050225EB91CF001D0A8B /* LoginCell.swift */; };
 		EF4A050625EB923A001D0A8B /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A050525EB923A001D0A8B /* PasswordCell.swift */; };
-		EF5EFD1C25F966DA00406014 /* SubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EFD1A25F966D900406014 /* SubjectCell.swift */; };
-		EF5EFD1D25F966DA00406014 /* SubjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF5EFD1B25F966DA00406014 /* SubjectCell.xib */; };
 		EF5EFD2025FB8B3100406014 /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EFD1F25FB8B3100406014 /* ScheduleData.swift */; };
 		EF5EFD2B260245F300406014 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EFD2A260245F300406014 /* DateExtension.swift */; };
 		EF6DA95626079A3C005BF267 /* WeekDayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6DA95526079A3C005BF267 /* WeekDayHeaderView.swift */; };
@@ -32,6 +30,8 @@
 		EFBAB59025F63E5A0032EB15 /* DateHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAB58F25F63E5A0032EB15 /* DateHeader.swift */; };
 		EFBAB59325F64FBB0032EB15 /* SubjectInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAB59225F64FBB0032EB15 /* SubjectInfoModel.swift */; };
 		EFC116B5257EE46100232B6C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC116B4257EE46100232B6C /* HomeViewController.swift */; };
+		EFCA976B261B99AE0092AA1C /* SubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCA9769261B99AE0092AA1C /* SubjectCell.swift */; };
+		EFCA976C261B99AE0092AA1C /* SubjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFCA976A261B99AE0092AA1C /* SubjectCell.xib */; };
 		EFCDB6DB2580EED100C885C7 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCDB6DA2580EED100C885C7 /* AuthViewController.swift */; };
 		EFCDB6DE2580FD2A00C885C7 /* authJsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCDB6DD2580FD2A00C885C7 /* authJsonData.swift */; };
 		EFD0768325D6953F004D25C4 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0768225D6953F004D25C4 /* NewsViewController.swift */; };
@@ -49,8 +49,6 @@
 		EF3B339D25F124D000CA7C65 /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
 		EF4A050225EB91CF001D0A8B /* LoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
 		EF4A050525EB923A001D0A8B /* PasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCell.swift; sourceTree = "<group>"; };
-		EF5EFD1A25F966D900406014 /* SubjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectCell.swift; sourceTree = SOURCE_ROOT; };
-		EF5EFD1B25F966DA00406014 /* SubjectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubjectCell.xib; sourceTree = SOURCE_ROOT; };
 		EF5EFD1F25FB8B3100406014 /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
 		EF5EFD2A260245F300406014 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = "MGOTU App/Controllers/DateExtension.swift"; sourceTree = SOURCE_ROOT; };
 		EF6DA95526079A3C005BF267 /* WeekDayHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeekDayHeaderView.swift; path = "MGOTU App/WeekDayHeaderView.swift"; sourceTree = SOURCE_ROOT; };
@@ -71,6 +69,8 @@
 		EFBAB58F25F63E5A0032EB15 /* DateHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHeader.swift; sourceTree = "<group>"; };
 		EFBAB59225F64FBB0032EB15 /* SubjectInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectInfoModel.swift; sourceTree = "<group>"; };
 		EFC116B4257EE46100232B6C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EFCA9769261B99AE0092AA1C /* SubjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectCell.swift; sourceTree = "<group>"; };
+		EFCA976A261B99AE0092AA1C /* SubjectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubjectCell.xib; sourceTree = "<group>"; };
 		EFCDB6DA2580EED100C885C7 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		EFCDB6DD2580FD2A00C885C7 /* authJsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authJsonData.swift; sourceTree = "<group>"; };
 		EFD0768225D6953F004D25C4 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
@@ -152,8 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				EF6DA95526079A3C005BF267 /* WeekDayHeaderView.swift */,
-				EF5EFD1A25F966D900406014 /* SubjectCell.swift */,
-				EF5EFD1B25F966DA00406014 /* SubjectCell.xib */,
+				EFCA9769261B99AE0092AA1C /* SubjectCell.swift */,
+				EFCA976A261B99AE0092AA1C /* SubjectCell.xib */,
 				EFBAB58F25F63E5A0032EB15 /* DateHeader.swift */,
 				EFD0768925D69ED7004D25C4 /* FeedItemCell.swift */,
 				EF7DEE10256C646200AC25C9 /* Main.storyboard */,
@@ -256,7 +256,7 @@
 				EFD0768C25D69ED7004D25C4 /* FeedItemCell.xib in Resources */,
 				EF7DEE17256C646700AC25C9 /* LaunchScreen.storyboard in Resources */,
 				EF7DEE14256C646700AC25C9 /* Assets.xcassets in Resources */,
-				EF5EFD1D25F966DA00406014 /* SubjectCell.xib in Resources */,
+				EFCA976C261B99AE0092AA1C /* SubjectCell.xib in Resources */,
 				EF7DEE12256C646200AC25C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFCA976B261B99AE0092AA1C /* SubjectCell.swift in Sources */,
 				EFA158F425DC82D800D6F098 /* NetworkingManager🌐.swift in Sources */,
 				EF5EFD2B260245F300406014 /* DateExtension.swift in Sources */,
 				EFBAB59025F63E5A0032EB15 /* DateHeader.swift in Sources */,
@@ -312,7 +313,6 @@
 				EFC116B5257EE46100232B6C /* HomeViewController.swift in Sources */,
 				EF5EFD2025FB8B3100406014 /* ScheduleData.swift in Sources */,
 				EF3B339E25F124D000CA7C65 /* DescriptionCell.swift in Sources */,
-				EF5EFD1C25F966DA00406014 /* SubjectCell.swift in Sources */,
 				EF4A050625EB923A001D0A8B /* PasswordCell.swift in Sources */,
 				EFD0768325D6953F004D25C4 /* NewsViewController.swift in Sources */,
 				EFAC8EAE25E05AF2007ED638 /* FeedModel.swift in Sources */,
