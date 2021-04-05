@@ -11,6 +11,7 @@
 		EF3B339E25F124D000CA7C65 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3B339D25F124D000CA7C65 /* DescriptionCell.swift */; };
 		EF4A050325EB91CF001D0A8B /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A050225EB91CF001D0A8B /* LoginCell.swift */; };
 		EF4A050625EB923A001D0A8B /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A050525EB923A001D0A8B /* PasswordCell.swift */; };
+		EF5AD434261B85BF00874D96 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EF5AD433261B85BF00874D96 /* .gitignore */; };
 		EF79988E25F3971700DCEAB8 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79988D25F3971700DCEAB8 /* LoaderView.swift */; };
 		EF7DEE0B256C646200AC25C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7DEE0A256C646200AC25C9 /* AppDelegate.swift */; };
 		EF7DEE0D256C646200AC25C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7DEE0C256C646200AC25C9 /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 		EF3B339D25F124D000CA7C65 /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
 		EF4A050225EB91CF001D0A8B /* LoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
 		EF4A050525EB923A001D0A8B /* PasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCell.swift; sourceTree = "<group>"; };
+		EF5AD433261B85BF00874D96 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		EF79988D25F3971700DCEAB8 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		EF7DEE07256C646200AC25C9 /* MGOTU App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MGOTU App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7DEE0A256C646200AC25C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		EF7DEE09256C646200AC25C9 /* MGOTU App */ = {
 			isa = PBXGroup;
 			children = (
+				EF5AD433261B85BF00874D96 /* .gitignore */,
 				EF7DEE18256C646700AC25C9 /* Info.plist */,
 				EFBCBD7A25E3B0F800D2D34A /* Other */,
 				EFBCBD7925E3B0A000D2D34A /* Controllers */,
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5AD434261B85BF00874D96 /* .gitignore in Resources */,
 				EFD0768C25D69ED7004D25C4 /* FeedItemCell.xib in Resources */,
 				EF7DEE17256C646700AC25C9 /* LaunchScreen.storyboard in Resources */,
 				EF7DEE14256C646700AC25C9 /* Assets.xcassets in Resources */,
