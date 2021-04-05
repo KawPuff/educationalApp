@@ -37,6 +37,7 @@
 		EFD0768325D6953F004D25C4 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0768225D6953F004D25C4 /* NewsViewController.swift */; };
 		EFD0768B25D69ED7004D25C4 /* FeedItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0768925D69ED7004D25C4 /* FeedItemCell.swift */; };
 		EFD0768C25D69ED7004D25C4 /* FeedItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFD0768A25D69ED7004D25C4 /* FeedItemCell.xib */; };
+		EFD4CEB1261B8AE700EAC48F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EFD4CEB0261B8AE700EAC48F /* .gitignore */; };
 		F2053BDCA2FE8BFA0D337E11 /* libPods-MGOTU App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D6BBEE7EDB671AA5B8FDE2 /* libPods-MGOTU App.a */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		EFD0768225D6953F004D25C4 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		EFD0768925D69ED7004D25C4 /* FeedItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemCell.swift; sourceTree = "<group>"; };
 		EFD0768A25D69ED7004D25C4 /* FeedItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedItemCell.xib; sourceTree = "<group>"; };
+		EFD4CEB0261B8AE700EAC48F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		EF7DEE09256C646200AC25C9 /* MGOTU App */ = {
 			isa = PBXGroup;
 			children = (
+				EFD4CEB0261B8AE700EAC48F /* .gitignore */,
 				EF7DEE18256C646700AC25C9 /* Info.plist */,
 				EFBCBD7A25E3B0F800D2D34A /* Other */,
 				EFBCBD7925E3B0A000D2D34A /* Controllers */,
@@ -257,6 +260,7 @@
 				EF7DEE17256C646700AC25C9 /* LaunchScreen.storyboard in Resources */,
 				EF7DEE14256C646700AC25C9 /* Assets.xcassets in Resources */,
 				EF5EFD1D25F966DA00406014 /* SubjectCell.xib in Resources */,
+				EFD4CEB1261B8AE700EAC48F /* .gitignore in Resources */,
 				EF7DEE12256C646200AC25C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
