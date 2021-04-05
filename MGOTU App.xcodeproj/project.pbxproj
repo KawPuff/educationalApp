@@ -12,6 +12,11 @@
 		EF3B339E25F124D000CA7C65 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3B339D25F124D000CA7C65 /* DescriptionCell.swift */; };
 		EF4A050325EB91CF001D0A8B /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A050225EB91CF001D0A8B /* LoginCell.swift */; };
 		EF4A050625EB923A001D0A8B /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A050525EB923A001D0A8B /* PasswordCell.swift */; };
+		EF5EFD1C25F966DA00406014 /* SubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EFD1A25F966D900406014 /* SubjectCell.swift */; };
+		EF5EFD1D25F966DA00406014 /* SubjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF5EFD1B25F966DA00406014 /* SubjectCell.xib */; };
+		EF5EFD2025FB8B3100406014 /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EFD1F25FB8B3100406014 /* ScheduleData.swift */; };
+		EF5EFD2B260245F300406014 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EFD2A260245F300406014 /* DateExtension.swift */; };
+		EF6DA95626079A3C005BF267 /* WeekDayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6DA95526079A3C005BF267 /* WeekDayHeaderView.swift */; };
 		EF79988E25F3971700DCEAB8 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79988D25F3971700DCEAB8 /* LoaderView.swift */; };
 		EF7A8DDC2619BE9C00BCFC37 /* StringExtencion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A8DDB2619BE9C00BCFC37 /* StringExtencion.swift */; };
 		EF7A8DDF2619D82600BCFC37 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A8DDE2619D82600BCFC37 /* PopUpViewController.swift */; };
@@ -44,6 +49,11 @@
 		EF3B339D25F124D000CA7C65 /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
 		EF4A050225EB91CF001D0A8B /* LoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
 		EF4A050525EB923A001D0A8B /* PasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCell.swift; sourceTree = "<group>"; };
+		EF5EFD1A25F966D900406014 /* SubjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectCell.swift; sourceTree = SOURCE_ROOT; };
+		EF5EFD1B25F966DA00406014 /* SubjectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubjectCell.xib; sourceTree = SOURCE_ROOT; };
+		EF5EFD1F25FB8B3100406014 /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
+		EF5EFD2A260245F300406014 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = "MGOTU App/Controllers/DateExtension.swift"; sourceTree = SOURCE_ROOT; };
+		EF6DA95526079A3C005BF267 /* WeekDayHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeekDayHeaderView.swift; path = "MGOTU App/WeekDayHeaderView.swift"; sourceTree = SOURCE_ROOT; };
 		EF79988D25F3971700DCEAB8 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		EF7A8DDB2619BE9C00BCFC37 /* StringExtencion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtencion.swift; sourceTree = "<group>"; };
 		EF7A8DDE2619D82600BCFC37 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +143,7 @@
 				EFAC8EAD25E05AF2007ED638 /* FeedModel.swift */,
 				EFCDB6DD2580FD2A00C885C7 /* authJsonData.swift */,
 				EFBAB59225F64FBB0032EB15 /* SubjectInfoModel.swift */,
+				EF5EFD1F25FB8B3100406014 /* ScheduleData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,6 +151,9 @@
 		EFBCBD7825E3B08F00D2D34A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EF6DA95526079A3C005BF267 /* WeekDayHeaderView.swift */,
+				EF5EFD1A25F966D900406014 /* SubjectCell.swift */,
+				EF5EFD1B25F966DA00406014 /* SubjectCell.xib */,
 				EFBAB58F25F63E5A0032EB15 /* DateHeader.swift */,
 				EFD0768925D69ED7004D25C4 /* FeedItemCell.swift */,
 				EF7DEE10256C646200AC25C9 /* Main.storyboard */,
@@ -170,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				EF7A8DDB2619BE9C00BCFC37 /* StringExtencion.swift */,
+				EF5EFD2A260245F300406014 /* DateExtension.swift */,
 				EF00D3382604E497004E3CC4 /* NSLayoutConstraint Extension.swift */,
 				EF7DEE0A256C646200AC25C9 /* AppDelegate.swift */,
 				EF7DEE0C256C646200AC25C9 /* SceneDelegate.swift */,
@@ -241,6 +256,7 @@
 				EFD0768C25D69ED7004D25C4 /* FeedItemCell.xib in Resources */,
 				EF7DEE17256C646700AC25C9 /* LaunchScreen.storyboard in Resources */,
 				EF7DEE14256C646700AC25C9 /* Assets.xcassets in Resources */,
+				EF5EFD1D25F966DA00406014 /* SubjectCell.xib in Resources */,
 				EF7DEE12256C646200AC25C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA158F425DC82D800D6F098 /* NetworkingManager🌐.swift in Sources */,
+				EF5EFD2B260245F300406014 /* DateExtension.swift in Sources */,
 				EFBAB59025F63E5A0032EB15 /* DateHeader.swift in Sources */,
 				EF949AD425E5721000D02756 /* OtherViewController.swift in Sources */,
 				EF79988E25F3971700DCEAB8 /* LoaderView.swift in Sources */,
@@ -287,12 +304,15 @@
 				EFCDB6DB2580EED100C885C7 /* AuthViewController.swift in Sources */,
 				EFCDB6DE2580FD2A00C885C7 /* authJsonData.swift in Sources */,
 				EF7A8DDF2619D82600BCFC37 /* PopUpViewController.swift in Sources */,
+				EF6DA95626079A3C005BF267 /* WeekDayHeaderView.swift in Sources */,
 				EFBAB58D25F4EA340032EB15 /* DateCell.swift in Sources */,
 				EF7A8DDC2619BE9C00BCFC37 /* StringExtencion.swift in Sources */,
 				EFD0768B25D69ED7004D25C4 /* FeedItemCell.swift in Sources */,
 				EFBAB59325F64FBB0032EB15 /* SubjectInfoModel.swift in Sources */,
 				EFC116B5257EE46100232B6C /* HomeViewController.swift in Sources */,
+				EF5EFD2025FB8B3100406014 /* ScheduleData.swift in Sources */,
 				EF3B339E25F124D000CA7C65 /* DescriptionCell.swift in Sources */,
+				EF5EFD1C25F966DA00406014 /* SubjectCell.swift in Sources */,
 				EF4A050625EB923A001D0A8B /* PasswordCell.swift in Sources */,
 				EFD0768325D6953F004D25C4 /* NewsViewController.swift in Sources */,
 				EFAC8EAE25E05AF2007ED638 /* FeedModel.swift in Sources */,
