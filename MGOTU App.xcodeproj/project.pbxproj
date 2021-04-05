@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF00D3392604E497004E3CC4 /* NSLayoutConstraint Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF00D3382604E497004E3CC4 /* NSLayoutConstraint Extension.swift */; };
 		EF3B339A25F11B7000CA7C65 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3B339925F11B7000CA7C65 /* ButtonCell.swift */; };
 		EF3B339E25F124D000CA7C65 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3B339D25F124D000CA7C65 /* DescriptionCell.swift */; };
 		EF4A050325EB91CF001D0A8B /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A050225EB91CF001D0A8B /* LoginCell.swift */; };
 		EF4A050625EB923A001D0A8B /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A050525EB923A001D0A8B /* PasswordCell.swift */; };
+		EF5EFD1C25F966DA00406014 /* SubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EFD1A25F966D900406014 /* SubjectCell.swift */; };
+		EF5EFD1D25F966DA00406014 /* SubjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF5EFD1B25F966DA00406014 /* SubjectCell.xib */; };
+		EF5EFD2025FB8B3100406014 /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EFD1F25FB8B3100406014 /* ScheduleData.swift */; };
+		EF5EFD2B260245F300406014 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5EFD2A260245F300406014 /* DateExtension.swift */; };
+		EF6DA95626079A3C005BF267 /* WeekDayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6DA95526079A3C005BF267 /* WeekDayHeaderView.swift */; };
 		EF79988E25F3971700DCEAB8 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF79988D25F3971700DCEAB8 /* LoaderView.swift */; };
+		EF7A8DDC2619BE9C00BCFC37 /* StringExtencion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A8DDB2619BE9C00BCFC37 /* StringExtencion.swift */; };
+		EF7A8DDF2619D82600BCFC37 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7A8DDE2619D82600BCFC37 /* PopUpViewController.swift */; };
 		EF7DEE0B256C646200AC25C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7DEE0A256C646200AC25C9 /* AppDelegate.swift */; };
 		EF7DEE0D256C646200AC25C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7DEE0C256C646200AC25C9 /* SceneDelegate.swift */; };
 		EF7DEE12256C646200AC25C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7DEE10256C646200AC25C9 /* Main.storyboard */; };
@@ -20,6 +28,9 @@
 		EF949AD425E5721000D02756 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF949AD325E5721000D02756 /* OtherViewController.swift */; };
 		EFA158F425DC82D800D6F098 /* NetworkingManager🌐.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA158F325DC82D800D6F098 /* NetworkingManager🌐.swift */; };
 		EFAC8EAE25E05AF2007ED638 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC8EAD25E05AF2007ED638 /* FeedModel.swift */; };
+		EFBAB58D25F4EA340032EB15 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAB58C25F4EA340032EB15 /* DateCell.swift */; };
+		EFBAB59025F63E5A0032EB15 /* DateHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAB58F25F63E5A0032EB15 /* DateHeader.swift */; };
+		EFBAB59325F64FBB0032EB15 /* SubjectInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAB59225F64FBB0032EB15 /* SubjectInfoModel.swift */; };
 		EFC116B5257EE46100232B6C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC116B4257EE46100232B6C /* HomeViewController.swift */; };
 		EFCDB6DB2580EED100C885C7 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCDB6DA2580EED100C885C7 /* AuthViewController.swift */; };
 		EFCDB6DE2580FD2A00C885C7 /* authJsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCDB6DD2580FD2A00C885C7 /* authJsonData.swift */; };
@@ -33,11 +44,19 @@
 		81D6BBEE7EDB671AA5B8FDE2 /* libPods-MGOTU App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MGOTU App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5374B6DF4F873BB2038B38D /* Pods-MGOTU App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGOTU App.debug.xcconfig"; path = "Target Support Files/Pods-MGOTU App/Pods-MGOTU App.debug.xcconfig"; sourceTree = "<group>"; };
 		D1112BD2B91EB2C540763D1F /* Pods-MGOTU App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGOTU App.release.xcconfig"; path = "Target Support Files/Pods-MGOTU App/Pods-MGOTU App.release.xcconfig"; sourceTree = "<group>"; };
+		EF00D3382604E497004E3CC4 /* NSLayoutConstraint Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint Extension.swift"; sourceTree = "<group>"; };
 		EF3B339925F11B7000CA7C65 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
 		EF3B339D25F124D000CA7C65 /* DescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
 		EF4A050225EB91CF001D0A8B /* LoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
 		EF4A050525EB923A001D0A8B /* PasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCell.swift; sourceTree = "<group>"; };
+		EF5EFD1A25F966D900406014 /* SubjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectCell.swift; sourceTree = SOURCE_ROOT; };
+		EF5EFD1B25F966DA00406014 /* SubjectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubjectCell.xib; sourceTree = SOURCE_ROOT; };
+		EF5EFD1F25FB8B3100406014 /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
+		EF5EFD2A260245F300406014 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = "MGOTU App/Controllers/DateExtension.swift"; sourceTree = SOURCE_ROOT; };
+		EF6DA95526079A3C005BF267 /* WeekDayHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeekDayHeaderView.swift; path = "MGOTU App/WeekDayHeaderView.swift"; sourceTree = SOURCE_ROOT; };
 		EF79988D25F3971700DCEAB8 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		EF7A8DDB2619BE9C00BCFC37 /* StringExtencion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtencion.swift; sourceTree = "<group>"; };
+		EF7A8DDE2619D82600BCFC37 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		EF7DEE07256C646200AC25C9 /* MGOTU App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MGOTU App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7DEE0A256C646200AC25C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF7DEE0C256C646200AC25C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +67,9 @@
 		EF949AD325E5721000D02756 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OtherViewController.swift; path = "MGOTU App/Controllers/OtherViewController.swift"; sourceTree = SOURCE_ROOT; };
 		EFA158F325DC82D800D6F098 /* NetworkingManager🌐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkingManager🌐.swift"; sourceTree = "<group>"; };
 		EFAC8EAD25E05AF2007ED638 /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		EFBAB58C25F4EA340032EB15 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		EFBAB58F25F63E5A0032EB15 /* DateHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHeader.swift; sourceTree = "<group>"; };
+		EFBAB59225F64FBB0032EB15 /* SubjectInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectInfoModel.swift; sourceTree = "<group>"; };
 		EFC116B4257EE46100232B6C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EFCDB6DA2580EED100C885C7 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		EFCDB6DD2580FD2A00C885C7 /* authJsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authJsonData.swift; sourceTree = "<group>"; };
@@ -120,6 +142,8 @@
 			children = (
 				EFAC8EAD25E05AF2007ED638 /* FeedModel.swift */,
 				EFCDB6DD2580FD2A00C885C7 /* authJsonData.swift */,
+				EFBAB59225F64FBB0032EB15 /* SubjectInfoModel.swift */,
+				EF5EFD1F25FB8B3100406014 /* ScheduleData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -127,8 +151,13 @@
 		EFBCBD7825E3B08F00D2D34A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EF6DA95526079A3C005BF267 /* WeekDayHeaderView.swift */,
+				EF5EFD1A25F966D900406014 /* SubjectCell.swift */,
+				EF5EFD1B25F966DA00406014 /* SubjectCell.xib */,
+				EFBAB58F25F63E5A0032EB15 /* DateHeader.swift */,
 				EFD0768925D69ED7004D25C4 /* FeedItemCell.swift */,
 				EF7DEE10256C646200AC25C9 /* Main.storyboard */,
+				EFBAB58C25F4EA340032EB15 /* DateCell.swift */,
 				EF79988D25F3971700DCEAB8 /* LoaderView.swift */,
 				EF3B339D25F124D000CA7C65 /* DescriptionCell.swift */,
 				EF3B339925F11B7000CA7C65 /* ButtonCell.swift */,
@@ -142,6 +171,7 @@
 		EFBCBD7925E3B0A000D2D34A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				EF7A8DDE2619D82600BCFC37 /* PopUpViewController.swift */,
 				EFD0768225D6953F004D25C4 /* NewsViewController.swift */,
 				EFCDB6DA2580EED100C885C7 /* AuthViewController.swift */,
 				EFC116B4257EE46100232B6C /* HomeViewController.swift */,
@@ -153,6 +183,9 @@
 		EFBCBD7A25E3B0F800D2D34A /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				EF7A8DDB2619BE9C00BCFC37 /* StringExtencion.swift */,
+				EF5EFD2A260245F300406014 /* DateExtension.swift */,
+				EF00D3382604E497004E3CC4 /* NSLayoutConstraint Extension.swift */,
 				EF7DEE0A256C646200AC25C9 /* AppDelegate.swift */,
 				EF7DEE0C256C646200AC25C9 /* SceneDelegate.swift */,
 				EFA158F325DC82D800D6F098 /* NetworkingManager🌐.swift */,
@@ -223,6 +256,7 @@
 				EFD0768C25D69ED7004D25C4 /* FeedItemCell.xib in Resources */,
 				EF7DEE17256C646700AC25C9 /* LaunchScreen.storyboard in Resources */,
 				EF7DEE14256C646700AC25C9 /* Assets.xcassets in Resources */,
+				EF5EFD1D25F966DA00406014 /* SubjectCell.xib in Resources */,
 				EF7DEE12256C646200AC25C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,15 +294,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA158F425DC82D800D6F098 /* NetworkingManager🌐.swift in Sources */,
+				EF5EFD2B260245F300406014 /* DateExtension.swift in Sources */,
+				EFBAB59025F63E5A0032EB15 /* DateHeader.swift in Sources */,
 				EF949AD425E5721000D02756 /* OtherViewController.swift in Sources */,
 				EF79988E25F3971700DCEAB8 /* LoaderView.swift in Sources */,
 				EF7DEE0B256C646200AC25C9 /* AppDelegate.swift in Sources */,
+				EF00D3392604E497004E3CC4 /* NSLayoutConstraint Extension.swift in Sources */,
 				EF7DEE0D256C646200AC25C9 /* SceneDelegate.swift in Sources */,
 				EFCDB6DB2580EED100C885C7 /* AuthViewController.swift in Sources */,
 				EFCDB6DE2580FD2A00C885C7 /* authJsonData.swift in Sources */,
+				EF7A8DDF2619D82600BCFC37 /* PopUpViewController.swift in Sources */,
+				EF6DA95626079A3C005BF267 /* WeekDayHeaderView.swift in Sources */,
+				EFBAB58D25F4EA340032EB15 /* DateCell.swift in Sources */,
+				EF7A8DDC2619BE9C00BCFC37 /* StringExtencion.swift in Sources */,
 				EFD0768B25D69ED7004D25C4 /* FeedItemCell.swift in Sources */,
+				EFBAB59325F64FBB0032EB15 /* SubjectInfoModel.swift in Sources */,
 				EFC116B5257EE46100232B6C /* HomeViewController.swift in Sources */,
+				EF5EFD2025FB8B3100406014 /* ScheduleData.swift in Sources */,
 				EF3B339E25F124D000CA7C65 /* DescriptionCell.swift in Sources */,
+				EF5EFD1C25F966DA00406014 /* SubjectCell.swift in Sources */,
 				EF4A050625EB923A001D0A8B /* PasswordCell.swift in Sources */,
 				EFD0768325D6953F004D25C4 /* NewsViewController.swift in Sources */,
 				EFAC8EAE25E05AF2007ED638 /* FeedModel.swift in Sources */,
@@ -424,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GGBRYLM9ZW;
 				INFOPLIST_FILE = "MGOTU App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,6 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GGBRYLM9ZW;
 				INFOPLIST_FILE = "MGOTU App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

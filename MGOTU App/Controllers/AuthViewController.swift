@@ -40,10 +40,9 @@ class AuthViewController: UIViewController {
         fieldsTableView.delegate = self
         fieldsTableView.touchedTableViewDelgate = self
         NotificationCenter.default.addObserver(self, selector: #selector(onKeyboardShow), name: UIResponder.keyboardWillShowNotification, object: nil)
-             NotificationCenter.default.addObserver(self, selector: #selector(onKeyboardHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(onKeyboardHide), name: UIResponder.keyboardWillHideNotification, object: nil)
         
     }
-    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
@@ -60,17 +59,18 @@ class AuthViewController: UIViewController {
         loginDetails.password = sender.text!
         checkForFieldsNotEmpty()
     }
-
+    
     //MARK: - Keyboard Events
+    
     @objc func onKeyboardShow(notification: NSNotification){
         guard let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else{
             return
         }
         
         if fieldsTableView.frame.maxY > keyboardSize.minY{
-        originY = fieldsTableView.frame.origin.y
-        fieldsTableView.frame.origin.y = keyboardSize.minY - fieldsTableView.frame.height
-       // fieldsTableView.frame.origin.y = loginButton.frame.minY - fieldsTableView.frame.height
+            originY = fieldsTableView.frame.origin.y
+            fieldsTableView.frame.origin.y = keyboardSize.minY - fieldsTableView.frame.height
+            // fieldsTableView.frame.origin.y = loginButton.frame.minY - fieldsTableView.frame.height
         }
     }
     @objc func onKeyboardHide(notification:NSNotification){
@@ -92,32 +92,32 @@ class AuthViewController: UIViewController {
         
         networking.auth(login: loginDetails.login, password: loginDetails.password)
         
-          
+        
         networking.requestGroup.notify(queue: .main) { [self] in
             activityIndicator.stopAnimating()
             loaderView.isHidden = true
-            guard let status = networking.authStatus else{
+            guard let status = networking.authStatus?.authStatus else{
                 failedAuthDescriptionTF?.text = "Соединение с сервером потеряно"
                 fieldsTableView.cellForRow(at: IndexPath(row: 0, section: 0))?.isHidden = false
-            return
-        }
-       
-        if status == true {
-            print(status)
-            UserDefaults.standard.setValue(loginDetails.login, forKey: "login")
-            UserDefaults.standard.setValue(loginDetails.password, forKey: "password")
+                return
+            }
             
-            let sb = UIStoryboard(name: "Main", bundle: nil)
-            let newVC = sb.instantiateViewController(withIdentifier: "MainTabBarController")
-            sceneDelegate?.changeViewController(vc: newVC, animated: true)
-            
-        } else {
-            failedAuthDescriptionTF!.text = "Неверная связка логин/пароль"
-            fieldsTableView.cellForRow(at: IndexPath(row: 0, section: 0))?.isHidden = false
-            
+            if status == true {
+                print(status)
+                UserDefaults.standard.setValue(loginDetails.login, forKey: "login")
+                UserDefaults.standard.setValue(loginDetails.password, forKey: "password")
+                
+                let sb = UIStoryboard(name: "Main", bundle: nil)
+                let newVC = sb.instantiateViewController(withIdentifier: "MainTabBarController")
+                sceneDelegate?.changeViewController(vc: newVC, animated: true)
+                
+            } else {
+                failedAuthDescriptionTF!.text = "Неверная связка логин/пароль"
+                fieldsTableView.cellForRow(at: IndexPath(row: 0, section: 0))?.isHidden = false
+                
+            }
         }
-        }
-          
+        
     }
     
 }
@@ -125,8 +125,8 @@ class AuthViewController: UIViewController {
 //MARK: - TableView Extencion
 
 extension AuthViewController: UITableViewDelegate, UITableViewDataSource, TouchedTableViewDelegate{
-  
-  
+    
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 3
     }
@@ -135,10 +135,10 @@ extension AuthViewController: UITableViewDelegate, UITableViewDataSource, Touche
         if section == 1{
             return 2
         } else{
-        return 1
+            return 1
         }
     }
-
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         switch indexPath.section {
@@ -171,7 +171,7 @@ extension AuthViewController: UITableViewDelegate, UITableViewDataSource, Touche
         default:
             return UITableViewCell()
         }
-      return UITableViewCell()
+        return UITableViewCell()
     }
     
     func touchesBeganInTableView(_touches: Set<UITouch>, with event: UIEvent?) {

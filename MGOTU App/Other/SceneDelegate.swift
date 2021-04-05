@@ -10,15 +10,18 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+ var networking = NetworkingManager🌐()
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-
+        
+        if #available(iOS 13.0, *) {
+            window?.overrideUserInterfaceStyle = .light
+        }
         guard let _ = (scene as? UIWindowScene) else { return }
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
-        if UserDefaults.standard.string(forKey: "login") != nil {
+        if UserDefaults.standard.string(forKey: "login") != nil && UserDefaults.standard.string(forKey: "password") != nil {
             window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "MainTabBarController")
         } else{
             window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
